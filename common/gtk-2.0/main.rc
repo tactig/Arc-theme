@@ -718,7 +718,7 @@ style "menu_item"
   # but at least it's readable.
   # See https://bugs.freedesktop.org/show_bug.cgi?id=38038
   bg[SELECTED] = @selected_fg_color
-
+  fg[PRELIGHT] = @base_color
   text[PRELIGHT] = @fg_color
 
   engine "pixmap" {
@@ -726,7 +726,7 @@ style "menu_item"
     image {
       function = BOX
       state = PRELIGHT
-      file = "assets/menuitem.png"
+      file = "assets/menuitem-blue.png"
       border = { 1, 0, 1, 0 }
       stretch = TRUE
     }

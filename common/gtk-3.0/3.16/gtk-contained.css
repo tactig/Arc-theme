@@ -1332,8 +1332,8 @@ column-header .button, column-header .button:hover, column-header .button:active
   .menu .menuitem, .popup .menuitem {
     padding: 5px; }
     .menu .menuitem:hover, .popup .menuitem:hover {
-      color: #5c616c;
-      background-color: rgba(0, 0, 0, 0.04);
+      color: #ffffff;
+      background-color: #4084D6;
       border: solid rgba(0, 0, 0, 0.08);
       border-width: 1px 0 1px 0; }
     .menu .menuitem:insensitive, .popup .menuitem:insensitive {
